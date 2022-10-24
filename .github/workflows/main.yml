@@ -1,7 +1,7 @@
 name: Renovate
 on:
   push:
-    branches: [ "master", "gh-pages" ]
+    branches: [ "masterx", "gh-pagesx" ]
 jobs:
   renovate:
     runs-on: ubuntu-latest
