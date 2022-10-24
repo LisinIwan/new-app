@@ -17,7 +17,5 @@ jobs:
         with:
           configurationFile: example/renovate-config.js
           token: ${{ secrets.RENOVATE_TOKEN }}
-      - name: 'Dependency Review'
-        uses: actions/dependency-review-action@fd675ced9c17f1393071e1a2e685ab527e585a0c # tag=v2.5.0
         env:
           LOG_LEVEL: 'debug'
